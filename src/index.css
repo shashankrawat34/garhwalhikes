@@ -144,6 +144,14 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Leaflet map z-index fix — keep below sticky header */
+.leaflet-pane,
+.leaflet-top,
+.leaflet-bottom,
+.leaflet-control {
+  z-index: 1 !important;
+}
+
 body {
   @apply bg-gray-50 text-gray-900;
 }

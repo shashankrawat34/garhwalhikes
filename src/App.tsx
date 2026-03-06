@@ -7,6 +7,8 @@ import TrekDetail from './pages/TrekDetail';
 import About from './pages/About';
 import InfluencerProgram from './pages/InfluencerProgram';
 import Contact from './pages/Contact';
+import Blog from './pages/Blog';
+import BlogPost from './pages/BlogPost';
 import './App.css';
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
             <Route path="/trek/:id" element={<TrekDetail />} />
             <Route path="/about" element={<About />} />
             <Route path="/influencer" element={<InfluencerProgram />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
