@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /treks
+Allow: /about
+Allow: /contact
+Allow: /influencer-program
+Allow: /images/
+
+# Disallow crawling of sensitive paths
+Disallow: /api/
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /*.map$
+Disallow: /node_modules/
+
+# Allow search engines to crawl assets
+Allow: *.js
+Allow: *.css
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.png
+Allow: *.gif
+Allow: *.webp
+Allow: *.svg
+
+# Sitemaps
+Sitemap: https://garhwalhikes.com/sitemap.xml

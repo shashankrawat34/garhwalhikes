@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Homepage -->
+  <url>
+    <loc>https://garhwalhikes.com/</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Main Pages -->
+  <url>
+    <loc>https://garhwalhikes.com/treks</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://garhwalhikes.com/about</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://garhwalhikes.com/contact</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://garhwalhikes.com/influencer-program</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Trek Pages -->
+  <url>
+    <loc>https://garhwalhikes.com/trek/panch-kedar</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://garhwalhikes.com/images/treks/panch-kedar/trek.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://garhwalhikes.com/trek/kedarnath-trek</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://garhwalhikes.com/images/treks/kedarnath-trek/trek.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://garhwalhikes.com/trek/gaumukh-tapovan</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://garhwalhikes.com/images/treks/gaumukh-tapovan/trek.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://garhwalhikes.com/trek/kedarkantha</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garhwalhikes.com/images/treks/kedarkantha/trek.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://garhwalhikes.com/trek/kuari-pass</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garhwalhikes.com/images/treks/kuari-pass/trek.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://garhwalhikes.com/trek/madhyamaheshwar</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garhwalhikes.com/images/treks/madhyamaheshwar/trek.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://garhwalhikes.com/trek/rudranath</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garhwalhikes.com/images/treks/rudranath/trek.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://garhwalhikes.com/trek/roopkund</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garhwalhikes.com/images/treks/roopkund/trek.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://garhwalhikes.com/trek/dayara-bugyal</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garhwalhikes.com/images/treks/dayara-bugyal/trek.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://garhwalhikes.com/trek/auli-chopta</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garhwalhikes.com/images/treks/auli-chopta/trek.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://garhwalhikes.com/trek/bedni-bugyal</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garhwalhikes.com/images/treks/bedni-bugyal/trek.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://garhwalhikes.com/trek/spiti-valley</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garhwalhikes.com/images/treks/spiti-valley/trek.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://garhwalhikes.com/trek/harshil-valley</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garhwalhikes.com/images/treks/harshil-valley/trek.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://garhwalhikes.com/trek/chaar-dhaam</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://garhwalhikes.com/images/treks/chaar-dhaam/trek.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://garhwalhikes.com/trek/valley-of-flowers</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://garhwalhikes.com/images/treks/valley-of-flowers/trek.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://garhwalhikes.com/trek/chopta-tungnath</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garhwalhikes.com/images/treks/chopta-tungnath/trek.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://garhwalhikes.com/trek/ladakh-trip</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garhwalhikes.com/images/treks/ladakh-trip/trek.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://garhwalhikes.com/trek/pangarchulla</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garhwalhikes.com/images/treks/pangarchulla/trek.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://garhwalhikes.com/trek/niti-valley</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garhwalhikes.com/images/treks/niti-valley/trek.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://garhwalhikes.com/trek/darma-valley</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garhwalhikes.com/images/treks/darma-valley/trek.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://garhwalhikes.com/trek/yulla-kanda</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garhwalhikes.com/images/treks/yulla-kanda/trek.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://garhwalhikes.com/trek/adi-kailash</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garhwalhikes.com/images/treks/adi-kailash/trek.webp</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://garhwalhikes.com/trek/do-dhaam-tungnath</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://garhwalhikes.com/images/treks/do-dhaam-tungnath/trek.webp</image:loc>
+    </image:image>
+  </url>
+</urlset>

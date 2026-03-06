@@ -1,0 +1,236 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Professional Typography System */
+@layer base {
+  h1 {
+    @apply text-4xl md:text-5xl font-bold tracking-tight text-gray-900;
+  }
+  h2 {
+    @apply text-3xl md:text-4xl font-bold tracking-tight text-gray-900;
+  }
+  h3 {
+    @apply text-2xl font-semibold text-gray-900;
+  }
+  h4 {
+    @apply text-xl font-semibold text-gray-900;
+  }
+  p {
+    @apply text-base text-gray-700 leading-relaxed;
+  }
+}
+
+/* Hero Section Text - Yellow */
+.hero h1,
+.hero h2,
+.hero h3,
+.hero h4,
+.hero p {
+  @apply text-secondary;
+}
+
+/* Footer Text - Yellow */
+footer {
+  @apply text-secondary;
+}
+
+footer h3, footer h4, footer p, footer a {
+  @apply text-secondary;
+}
+
+/* Gradient Section Text - Yellow */
+.bg-gradient-to-r h1,
+.bg-gradient-to-r h2,
+.bg-gradient-to-r h3,
+.bg-gradient-to-r h4,
+.bg-gradient-to-r p {
+  @apply text-secondary;
+}
+
+/* Modern Button System */
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 md:px-8 md:py-4 bg-primary text-secondary font-semibold rounded-lg hover:bg-primary-dark transition-all duration-300 shadow-md hover:shadow-lg;
+  }
+  
+  .btn-secondary {
+    @apply px-6 py-3 md:px-8 md:py-4 bg-white text-primary font-semibold rounded-lg border-2 border-primary hover:bg-primary hover:text-secondary transition-all duration-300;
+  }
+  
+  .btn-small {
+    @apply px-4 py-2 bg-primary text-secondary font-medium rounded-md hover:bg-primary-dark transition-colors;
+  }
+}
+
+/* Modern Card System */
+@layer components {
+  .card {
+    @apply bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden;
+  }
+  
+  .card-hover {
+    @apply transform hover:scale-105 transition-transform duration-300;
+  }
+}
+
+/* Image Optimization - Allow images to fill aspect-ratio containers */
+@layer components {
+  img {
+    @apply max-w-full;
+  }
+  
+  /* Images with w-full should fill their containers, including height */
+  img.w-full {
+    @apply h-full;
+  }
+}
+
+/* Hero Section */
+@layer components {
+  .hero {
+    @apply relative w-full py-16 md:py-24 lg:py-32 bg-gradient-to-br from-primary via-primary-dark to-primary text-secondary overflow-hidden;
+  }
+  
+  .hero-title {
+    @apply text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-4;
+  }
+  
+  .hero-subtitle {
+    @apply text-lg md:text-xl text-secondary leading-relaxed;
+  }
+}
+
+/* Section Spacing */
+@layer components {
+  .section-py {
+    @apply py-12 md:py-16 lg:py-20;
+  }
+  
+  .section-px {
+    @apply px-4 md:px-6 lg:px-8;
+  }
+}
+
+/* Grid Utilities */
+@layer components {
+  .grid-cols-adaptive {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8;
+  }
+}
+
+/* Input Styling */
+@layer components {
+  input, textarea, select {
+    @apply w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all;
+  }
+}
+
+/* Smooth Transitions */
+@layer utilities {
+  .transition-smooth {
+    @apply transition-all duration-300 ease-in-out;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+/* Mobile Viewport & Scrolling Fixes */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  /* Prevent iOS zoom on double tap */
+  touch-action: manipulation;
+  /* Better font rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Enable hardware acceleration */
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+  /* iOS scrolling improvements */
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  /* Reset conflicting styles */
+  body, html {
+    height: auto;
+    overflow: visible;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-height: 100dvh;
+    width: 100%;
+  }
+  
+  /* Ensure header stays on top */
+  header {
+    flex-shrink: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 50;
+  }
+  
+  main {
+    flex: 1;
+    width: 100%;
+  }
+  
+  footer {
+    flex-shrink: 0;
+    width: 100%;
+  }
+  
+  /* Optimize buttons for touch */
+  button, a, input, textarea, select {
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    min-height: 44px; /* iOS recommended touch target size */
+  }
+  
+  /* Remove 300ms delay on click events */
+  * {
+    touch-action: manipulation;
+  }
+  
+  /* Fix overflow scrolling on iOS */
+  .overflow-x-auto {
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  /* Sticky positioning support */
+  .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
