@@ -1899,28 +1899,40 @@ export const trekData: Trek[] = [
 
 export const reviews = [
   {
-    name: 'Rajesh Kumar',
-    location: 'Mumbai',
+    name: 'Udita Pokhrel',
+    location: 'Google Review',
     rating: 5,
-    review: 'Amazing experience! The Panch Kedar trek was spiritual and physically challenging. Highly recommend Garhwal Hikes.',
+    review: 'It was an amazing experience with Garhwal Eye. The entire journey was flawlessly organized, ensuring a smooth and enjoyable adventure. The homestays arranged were exceptional, offering comfortable accommodations and warm hospitality from welcoming hosts. Each aspect of the trip reflected careful planning and attention to detail, making it a memorable and stress-free vacation. Har Har Mahadev!',
   },
   {
-    name: 'Priya Singh',
-    location: 'Delhi',
+    name: 'Prem Pratap',
+    location: 'Google Review',
     rating: 5,
-    review: 'Best trek experience ever. Professional guides, excellent planning, and breathtaking views. Worth every moment!',
+    review: 'Thinking back on my Panch Kedar trek with Garhwal Eye, I can\'t help but grin — it truly felt magical. The trip felt effortless, like everything just worked out perfectly from the start. Every homestay was more than just a place to rest; the families welcomed us like old friends. Each meal was comforting — fresh, local, and so satisfying after hours of trekking. Our guide was fantastic, someone who knew every corner of the route and always had our backs. I can\'t wait for my next adventure with them!',
   },
   {
-    name: 'Amit Verma',
-    location: 'Bangalore',
+    name: 'Amruta Kharpude',
+    location: 'Local Guide · Google Review',
     rating: 5,
-    review: 'Kuari Pass trek exceeded all expectations. The team made sure everyone was comfortable and safe.',
+    review: 'We completed our Panch Kedar Yatra. Jitu Bhai is so sharp and perfect to arrange everything for us — cab facility, pick up drop, food, hotel, transport, guide, mainly Panch Kedar itinerary. 12 days was just awesome! Because of you we were able to complete our Panch Kedar. I will request everyone to please contact Mr Jitu — such a nice and brilliant person for your any trek. He supported us and was very helpful.',
   },
   {
-    name: 'Neha Patel',
-    location: 'Pune',
+    name: 'Pranjal',
+    location: 'Google Review',
     rating: 5,
-    review: 'Valley of Flowers during monsoon was magical. The colors and fragrance are unforgettable!',
+    review: 'Garhwal Eye Trekking Company is a fantastic choice for trekking lovers. Their food is fresh, tasty, and cooked with care. Plus, they offer unlimited food, even in the mountains! The camps are set up away from other groups for peace and quiet. The guides are incredibly supportive — if you feel tired, they will patiently wait for you. For anyone looking for a peaceful, well-organized trek with delicious food, clean camps, and caring guides, Garhwal Eye is the perfect choice!',
+  },
+  {
+    name: 'Harshada P',
+    location: 'Local Guide · Google Review',
+    rating: 5,
+    review: 'My experience with Garhwal Eye has been amazing. Great for solo travellers! TJ the trek planner planned the trip very well and handled unforeseen situations brilliantly. He made sure my safety was their priority. The home stays were generous, food was amazing. I had planned a Rudranath trek along with Kalpeshwar temple — Shivam was a very enthusiastic leader who motivated me at every step. As a solo traveller I am highly recommending Garhwal Eye. Thank you so much!',
+  },
+  {
+    name: 'Rakesh Kumar',
+    location: 'Google Review',
+    rating: 5,
+    review: 'Completed the 12-day Panch Kedar Yatra with Garhwal Eye, and it was an amazing spiritual and adventurous journey. The guides (Shivam & Naveen) were highly knowledgeable, friendly, and supportive throughout the trek. Accommodation was comfortable and well-maintained. The food was consistently nutritious and delicious. Transport logistics were seamless. I highly recommend Garhwal Eye for anyone seeking a well-managed and memorable Panch Kedar Yatra.',
   },
 ];
 
