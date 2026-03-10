@@ -9,6 +9,7 @@ import InfluencerProgram from './pages/InfluencerProgram';
 import Contact from './pages/Contact';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
+import TravelUpdates from './pages/TravelUpdates';
 import './App.css';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
             <Route path="/influencer" element={<InfluencerProgram />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
+            <Route path="/travel-updates" element={<TravelUpdates />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>

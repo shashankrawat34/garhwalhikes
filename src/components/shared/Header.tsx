@@ -11,6 +11,7 @@ export default function Header() {
   const navLinks = [
     { name: 'Home', path: '/' },
     { name: 'All Treks', path: '/treks' },
+    { name: 'Travel Updates', path: '/travel-updates' },
     { name: 'Blog', path: '/blog' },
     { name: 'About', path: '/about' },
     { name: 'Influencer Program', path: '/influencer' },
