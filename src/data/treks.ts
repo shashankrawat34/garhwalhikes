@@ -1,6 +1,7 @@
 export interface Trek {
   id: string;
   name: string;
+  price?: number;
   category: 'yatra' | 'winter' | 'monsoon';
   description: string;
   duration: string;
@@ -49,6 +50,7 @@ export const trekData: Trek[] = [
   {
     id: 'panch-kedar',
     name: 'Panch Kedar with Badrinath',
+    price: 38999,
     category: 'yatra',
     description: 'Sacred pilgrimage trek to the five Kedars and the holy temple of Badrinath.',
     duration: '12D/11N',
@@ -196,6 +198,7 @@ export const trekData: Trek[] = [
   {
     id: 'kedarnath-trek',
     name: 'Kedarnath Trek',
+    price: 10499,
     category: 'yatra',
     description: 'Sacred pilgrimage trek to the Kedarnath Temple, one of the twelve Jyotirlingas of Lord Shiva and an important shrine among the Panch Kedar.',
     duration: '4D/3N',
@@ -299,6 +302,7 @@ export const trekData: Trek[] = [
   {
     id: 'madhyamaheshwar',
     name: 'Madhyamaheshwar Trek',
+    price: 9999,
     category: 'yatra',
     description: 'A Sacred Journey to the Navel of Lord Shiva in the Heart of the Himalayas',
     duration: '4D/3N',
@@ -404,6 +408,7 @@ export const trekData: Trek[] = [
   {
     id: 'rudranath',
     name: 'Rudranath Trek',
+    price: 10499,
     category: 'yatra',
     description: 'Trek to the Face of Lord Shiva in the Pristine Beauty of Garhwal Forests',
     duration: '5D/4N',
@@ -512,6 +517,7 @@ export const trekData: Trek[] = [
   {
     id: 'gaumukh-tapovan',
     name: 'Gaumukh-Tapovan Trek',
+    price: 17999,
     category: 'yatra',
     description: 'Trek to the source of the Ganges River at Gaumukh and the yoga meditation site of Tapovan.',
     duration: '6N/7D',
@@ -677,6 +683,7 @@ export const trekData: Trek[] = [
   {
     id: 'dayara-bugyal',
     name: 'Dayara Bugyal Trek',
+    price: 4499,
     category: 'winter',
     description: 'Alpine Meadow Trek to One of the Most Beautiful Meadows in the Himalayas with Rolling Grasslands',
     duration: '4D/3N',
@@ -765,6 +772,7 @@ export const trekData: Trek[] = [
   {
     id: 'valley-of-flowers',
     name: 'Valley of Flowers Trek',
+    price: 8999,
     category: 'monsoon',
     description: 'India\'s Premier Alpine Wildflower Meadow - Trek Through Nature\'s Floral Paradise',
     duration: '5 Days',
@@ -845,6 +853,7 @@ export const trekData: Trek[] = [
   {
     id: 'bedni-bugyal',
     name: 'Bedni Bugyal Trek',
+    price: 9499,
     category: 'monsoon',
     description: 'Trek to Bedni Bugyal, high altitude meadows offering panoramic views of the Himalayas.',
     duration: '3 Days',
@@ -892,6 +901,7 @@ export const trekData: Trek[] = [
   {
     id: 'chopta-tungnath',
     name: 'Chopta-Tungnath Trek',
+    price: 3999,
     category: 'winter',
     description: 'Trek combining the scenic Chopta meadows with the sacred Tungnath Temple, the highest Shiva shrine.',
     duration: '4 Days',
@@ -941,6 +951,7 @@ export const trekData: Trek[] = [
   {
     id: 'kedarkantha',
     name: 'Kedarkantha Trek',
+    price: 5499,
     category: 'winter',
     description: 'India\'s Perfect Winter Snow Trek for Beginners and Adventure Seekers',
     duration: '5D/4N',
@@ -1029,6 +1040,7 @@ export const trekData: Trek[] = [
   {
     id: 'roopkund',
     name: 'Roopkund Trek',
+    price: 13499,
     category: 'winter',
     description: 'Mysterious High-Altitude Alpine Lake Trek with Ancient Skeletons and Panoramic Himalayan Views',
     duration: '7D/6N',
@@ -1129,6 +1141,7 @@ export const trekData: Trek[] = [
   {
     id: 'kuari-pass',
     name: 'Kuari Pass Trek',
+    price: 6499,
     category: 'winter',
     description: 'One of India\'s Most Spectacular High-Altitude Passes with Panoramic Mountain Views',
     duration: '5D/4N',
@@ -1225,6 +1238,7 @@ export const trekData: Trek[] = [
   {
     id: 'do-dhaam-tungnath',
     name: 'Do Dhaam with Tungnath',
+    price: 14499,
     category: 'yatra',
     description: 'Spiritual pilgrimage trek combining two sacred destinations - Kedarnath and Badrinath temples with Tungnath.',
     duration: '10 Days',
@@ -1284,6 +1298,7 @@ export const trekData: Trek[] = [
   {
     id: 'adi-kailash',
     name: 'Adi Kailash Yatra',
+    price: 34999,
     category: 'yatra',
     description: 'Sacred pilgrimage to Adi Kailash, the "Mount Kailash of Uttarakhand" with panoramic Himalayan views.',
     duration: '12 Days',
@@ -1587,6 +1602,7 @@ export const trekData: Trek[] = [
   {
     id: 'yulla-kanda',
     name: 'Yulla Kanda Trek',
+    price: 7999,
     category: 'winter',
     description: 'Trek to Yulla Kanda peak offering pristine snow-covered landscapes and panoramic mountain views.',
     duration: '4 Days',
@@ -1757,6 +1773,7 @@ export const trekData: Trek[] = [
   {
     id: 'pangarchulla',
     name: 'Pangarchulla Trek',
+    price: 9499,
     category: 'winter',
     description: 'Trek to Pangarchulla peak (4,720m) offering stunning snow-covered landscapes and panoramic Himalayan views.',
     duration: '4 Days',
@@ -1808,6 +1825,7 @@ export const trekData: Trek[] = [
   {
     id: 'chaar-dhaam',
     name: 'Chaar Dhaam Yatra',
+    price: 23999,
     category: 'yatra',
     description: 'The ultimate pilgrimage journey to all four Dhams - Yamunotri, Gangotri, Kedarnath, and Badrinath.',
     duration: '16 Days',

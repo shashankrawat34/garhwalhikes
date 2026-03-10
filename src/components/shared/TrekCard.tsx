@@ -42,6 +42,12 @@ export default function TrekCard({ trek }: TrekCardProps) {
               <span className="text-gray-600 font-medium">Best Time:</span>
               <span className="font-semibold text-gray-900">{trek.bestTime}</span>
             </div>
+            {trek.price && (
+              <div className="flex justify-between items-center pt-2 border-t border-gray-100">
+                <span className="text-gray-600 font-medium">Price:</span>
+                <span className="font-bold text-primary text-lg">₹{trek.price.toLocaleString('en-IN')}<span className="text-xs text-gray-500 font-normal"> /person</span></span>
+              </div>
+            )}
           </div>
           <button className="btn-primary w-full">
             View Details
